@@ -1,0 +1,22 @@
+notes:
+  Use buttons for linking things! *There should typically only be one primary button per page or section.*
+
+collated: true
+context:
+  base-class: Button
+  type: default
+  text: 'This is a button'
+variants:
+  - name: 'primary'
+    context:
+      modifier: primary
+      text: 'A primary button'
+  - name: 'default'
+    context:
+      modifier: default
+      text: 'Default button'
+  - name: 'large'
+    context:
+      type: primary
+      size: lg
+      text: 'BIG button'

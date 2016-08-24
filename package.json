@@ -23,7 +23,10 @@
     "deps": "npm run deps:missing && npm run deps:extra",
     "deps:missing": "dependency-check package.json",
     "deps:extra": "dependency-check package.json --extra --no-dev --ignore",
-    "build:doc": "doctoc --github --title \"## Contents\" ./"
+    "build:doc": "doctoc --github --title \"## Contents\" ./",
+
+    "styleguide": "fractal start --sync",
+    "styleguide:build": "fractal build"
   },
   "dependencies": {
     "gulp-uglify": "^1.5.3",

@@ -13,7 +13,8 @@ const del = require("del");
 const server = require("./server");
 
 const config = {
-    bootstrapDir: './node_modules/bootstrap-sass'
+    bootstrapDir: './node_modules/bootstrap-sass',
+    styleguideDir: './styleguide'
 };
 
 const PRODUCTION = process.env.NODE_ENV === "production";

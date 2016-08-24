@@ -1,0 +1,20 @@
+.List {
+    padding-left: 0;
+    margin-top: 0;
+}
+.List li {
+    list-style: none;
+}
+.List--tall li a {
+    padding-bottom: 0.2em;
+}
+.List--inline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.List--inline li {
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    align-self: center;
+}

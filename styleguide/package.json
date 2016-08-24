@@ -1,0 +1,17 @@
+{
+  "name": "we-vote-style-guide",
+  "version": "0.1.0",
+  "dependencies": {
+    "@frctl/fractal": "^1.0.8"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sass-glob": "^1.0.6"
+  },
+  "scripts": {
+    "start": "fractal start --sync",
+    "build": "fractal build"
+  }
+}
