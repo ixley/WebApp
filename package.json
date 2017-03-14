@@ -24,7 +24,9 @@
     "deps": "npm run deps:missing && npm run deps:extra",
     "deps:missing": "dependency-check package.json",
     "deps:extra": "dependency-check package.json --extra --no-dev --ignore",
-    "build:doc": "doctoc --github --title \"## Contents\" ./"
+    "build:doc": "doctoc --github --title \"## Contents\" ./",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "gulp-uglify": "^2.0.0",
@@ -99,7 +101,8 @@
     "stylelint-declaration-use-variable": "^1.6.0",
     "tape": "^4.4.0",
     "vinyl-source-stream": "^1.1.0",
-    "yargs": "^6.6.0"
+    "yargs": "^6.6.0",
+    "@kadira/storybook": "^2.21.0"
   },
   "repository": "https://github.com/wevote/webapp.git",
   "pre-commit": [
