@@ -1,4 +1,6 @@
 import React from 'react';
+import { withKnobs, text, boolean, number } from '@kadira/storybook-addon-knobs';
+
 
 const buttonStyles = {
   border: '1px solid #eee',
